@@ -1,0 +1,73 @@
+
+{
+  "master-formula-additions": {
+    "aesthetics-vocabulary": {
+      "color-precise": [
+        {"en": "crimson", "zh": "深红色", "hex": "#DC143C", "usage": "热情力量"},
+        {"en": "burgundy", "zh": "酒红色", "hex": "#800020", "usage": "优雅奢华"},
+        {"en": "tangerine", "zh": "橘子橙", "hex": "#F28500", "usage": "活力温暖"},
+        {"en": "apricot", "zh": "杏色", "hex": "#FBCEB0", "usage": "柔和甜美"},
+        {"en": "goldenrod", "zh": "金麒麟黄", "hex": "#DAA520", "usage": "阳光财富"},
+        {"en": "buttercream", "zh": "奶油黄", "hex": "#FFFBF0", "usage": "温暖细腻"},
+        {"en": "emerald", "zh": "祖母绿", "hex": "#50C878", "usage": "珍贵生机"},
+        {"en": "sage", "zh": "鼠尾草绿", "hex": "#BCB88A", "usage": "自然平和"},
+        {"en": "sky blue", "zh": "天蓝色", "hex": "#87CEEB", "usage": "清新明亮"},
+        {"en": "navy", "zh": "海军蓝", "hex": "#000080", "usage": "稳重专业"},
+        {"en": "lavender", "zh": "淡紫色", "hex": "#E6E6FA", "usage": "浪漫梦幻"},
+        {"en": "plum", "zh": "李子紫", "hex": "#8E4585", "usage": "神秘高贵"},
+        {"en": "blush", "zh": "裸粉色", "hex": "#FFB7C5", "usage": "温柔甜美"},
+        {"en": "rose pink", "zh": "玫瑰粉", "hex": "#FF007F", "usage": "浪漫激情"},
+        {"en": "ivory", "zh": "象牙白", "hex": "#FFFFF0", "usage": "纯净典雅"},
+        {"en": "taupe", "zh": "灰褐色", "hex": "#483C32", "usage": "中性百搭"},
+        {"en": "slate gray", "zh": "石板灰", "hex": "#708090", "usage": "冷静现代"},
+        {"en": "mustard", "zh": "芥末黄", "hex": "#FFDB58", "usage": "复古时尚"},
+        {"en": "olive drab", "zh": "橄榄绿", "hex": "#6B8E23", "usage": "自然军旅"},
+        {"en": "coral", "zh": "珊瑚红", "hex": "#FF7F50", "usage": "活泼热情"}
+      ],
+      "atmosphere-moods": [
+        {"term": "cozy intimate", "zh": "温馨私密", "palette": "暖橙色系", "best_for": "居家生活场景"},
+        {"term": "ethereal dreamy", "zh": "空灵梦幻", "palette": "银白淡金", "best_for": "仙女系内容"},
+        {"term": "romantic fairy tale", "zh": "浪漫童话", "palette": "粉色金色", "best_for": "婚礼庆典主题"},
+        {"term": "mysterious dark", "zh": "神秘暗黑", "palette": "黑红深蓝", "best_for": "悬疑故事题材"},
+        {"term": "energetic vibrant", "zh": "活力四射", "palette": "彩虹高饱和", "best_for": "运动健身内容"},
+        {"term": "melancholic reflective", "zh": "忧郁沉思", "palette": "灰蓝紫", "best_for": "情感表达帖文"},
+        {"term": "nostalgic wistful", "zh": "怀旧惆怅", "palette": "棕褐褪色", "best_for": "复古主题创作"},
+        {"term": "serene peaceful", "zh": "宁静平和", "palette": "中性柔色", "best_for": "冥想瑜伽内容"},
+        {"term": "luxurious elegant", "zh": "奢华高雅", "palette": "金银黑白", "best_for": "高端品牌宣传"},
+        {"term": "playful whimsical", "zh": "俏皮异想", "palette": "马卡龙色系", "best_for": "儿童创意内容"}
+      ],
+      "texture-descriptions": [
+        {"term": "mirror-polished chrome", "zh": "镜面抛光铬", "visual_effect": "反射周围环境", "materials": "金属配件、汽车表面"},
+        {"term": "weathered wood grain", "zh": "风化木纹", "visual_effect": "岁月痕迹斑驳", "materials": "老旧家具、乡村风格"},
+        {"term": "silk fabric flowing", "zh": "丝绸飘逸", "visual_effect": "流畅柔和褶皱", "materials": "礼服、高档服装"},
+        {"term": "velvet plush texture", "zh": "天鹅绒蓬松", "visual_effect": "吸光柔软质感", "materials": "沙发面料、高档服饰"},
+        {"term": "brushed aluminum", "zh": "拉丝铝材", "visual_effect": "方向性线条纹理", "materials": "电子产品外壳"},
+        {"term": "condensation droplets", "zh": "冷凝水珠", "visual_effect": "新鲜度暗示", "materials": "冷饮杯壁、生鲜展示"},
+        {"term": "translucent glass", "zh": "半透明玻璃", "visual_effect": "透光不透像", "materials": "灯具、装饰器皿"},
+        {"term": "rough concrete", "zh": "粗糙混凝土", "visual_effect": "工业风颗粒感", "materials": "建筑外墙、艺术背景"},
+        {"term": "delicate lace", "zh": "精致蕾丝", "visual_effect": "复杂花纹镂空", "materials": "婚纱、内衣细节"},
+        {"term": "glossy ceramic glaze", "zh": "光亮陶瓷釉", "visual_effect": "光滑反光表面", "materials": "餐具、装饰瓷器"}
+      ]
+    }
+  },
+  "skill-updates": {
+    "version": "2.0.0",
+    "major_changes": [
+      "新增万能公式构建器 API (useMasterFormula)",
+      "扩展术语库至 156+ 专业术语",
+      "五大场景实战示例 30+ 个",
+      "美学描述指南完整文档",
+      "知识库扩充至 500+ 条目"
+    ],
+    "files_added": [
+      "master-formula.md - 万能公式详解",
+      "glossary-extra.json - 扩展术语库",
+      "aesthetics-guide.md - 美学描述指南",
+      "examples/portrait-20-24.js - 人像摄影系列",
+      "examples/poster-01-05.js - 海报插画系列",
+      "examples/character-01-03.js - 角色设计系列",
+      "examples/ui-01-02.js - UI 截图系列",
+      "examples/fusion-01-02.js - 创意混搭系列"
+    ]
+  }
+}

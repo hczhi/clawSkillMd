@@ -1,0 +1,33 @@
+{
+  "name": "xiaohongshu-ai-art-prompt",
+  "version": "1.0.0",
+  "description": "小红书 AI 绘画提示词专家 - Complete prompt engineering toolkit for Xiaohongshu content creators",
+  "main": "prompt-builder.js",
+  "scripts": {
+    "test": "node test-examples.js",
+    "demo": "node examples/quick-demo.js"
+  },
+  "keywords": [
+    "ai-art",
+    "prompt-engineering",
+    "midjourney",
+    "stable-diffusion",
+    "xiaohongshu",
+    "red-notebook",
+    "ai-painting",
+    "text-to-image"
+  ],
+  "author": "Xiaohongshu AI Art Master",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/openclaw/xiaohongshu-ai-art-prompt"
+  },
+  "bugs": {
+    "url": "https://github.com/openclaw/xiaohongshu-ai-art-prompt/issues"
+  },
+  "homepage": "https://github.com/openclaw/xiaohongshu-ai-art-prompt#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

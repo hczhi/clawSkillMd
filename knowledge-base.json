@@ -1,0 +1,1621 @@
+{
+  "version": "1.0.0",
+  "description": "小红书 AI 绘画提示词完整知识库 - 350+ 结构化咒语元素",
+  "metadata": {
+    "totalItems": 357,
+    "categories": {
+      "general-tips": 98,
+      "scene-templates": 125,
+      "keyword-dictionary": 134
+    }
+  },
+  
+  "general-tips": {
+    "lighting": [
+      {
+        "id": "lg001",
+        "name": "golden_hour",
+        "zh": "黄金时刻",
+        "prompt": "golden hour lighting, warm sunset glow, soft amber tones",
+        "effect": "温暖柔和，适合人像和风景"
+      },
+      {
+        "id": "lg002", 
+        "name": "blue_hour",
+        "zh": "蓝色时刻",
+        "prompt": "blue hour twilight, cool ambient light, city lights beginning to glow",
+        "effect": "冷静神秘，适合城市夜景"
+      },
+      {
+        "id": "lg003",
+        "name": "cinematic_lighting",
+        "zh": "电影级布光",
+        "prompt": "cinematic dramatic lighting, three-point setup, high contrast shadows",
+        "effect": "专业电影质感，增强故事性"
+      },
+      {
+        "id": "lg004",
+        "name": "volumetric_lighting",
+        "zh": "体积光/丁达尔效应",
+        "prompt": "volumetric lighting, god rays, visible light beams through atmosphere",
+        "effect": "梦幻氛围，增强空间感"
+      },
+      {
+        "id": "lg005",
+        "name": "rembrandt_lighting",
+        "zh": "伦勃朗光",
+        "prompt": "rembrandt portrait lighting, triangular light patch on cheek, dramatic shadows",
+        "effect": "经典人像布光，增加立体感"
+      },
+      {
+        "id": "lg006",
+        "name": "butterfly_lighting",
+        "zh": "蝴蝶光",
+        "prompt": "butterfly lighting, Paramount lighting, shadow under nose like butterfly",
+        "effect": "女性肖像专用，美化脸型"
+      },
+      {
+        "id": "lg007",
+        "name": "rim_lighting",
+        "zh": "轮廓光/逆光",
+        "prompt": "backlighting, rim light, hair light, separating subject from background",
+        "effect": "突出主体轮廓，增加层次感"
+      },
+      {
+        "id": "lg008",
+        "name": "soft_box_lighting",
+        "zh": "柔光箱光线",
+        "prompt": "soft diffused lighting, large softbox, gentle shadows, flattering skin tone",
+        "effect": "商业人像常用，皮肤更细腻"
+      },
+      {
+        "id": "lg009",
+        "name": "hard_lighting",
+        "zh": "硬光",
+        "prompt": "hard direct lighting, sharp defined shadows, high contrast",
+        "effect": "戏剧性强，适合男性或艺术创作"
+      },
+      {
+        "id": "lg010",
+        "name": "natural_window_light",
+        "zh": "自然窗光",
+        "prompt": "natural window light, side lit from window, soft daylight through sheer curtains",
+        "effect": "清新自然，生活感十足"
+      },
+      {
+        "id": "lg011",
+        "name": "neon_lighting",
+        "zh": "霓虹灯",
+        "prompt": "neon neon signs, pink and blue LED lights, cyberpunk atmosphere, reflections on wet surfaces",
+        "effect": "赛博朋克风，年轻潮流"
+      },
+      {
+        "id": "lg012",
+        "name": "fire_lighting",
+        "zh": "火光",
+        "prompt": "warm firelight flickering, orange and yellow glow, dynamic shadows dancing",
+        "effect": "温暖亲密，适合室内场景"
+      },
+      {
+        "id": "lg013",
+        "name": "moonlight",
+        "zh": "月光",
+        "prompt": "cool moonlight silvery blue tones, long shadows, night atmosphere",
+        "effect": "神秘浪漫，夜间场景"
+      },
+      {
+        "id": "lg014",
+        "name": "studio_strobe",
+        "zh": "影棚闪光灯",
+        "prompt": "professional studio strobe, flash photography, crisp details, vibrant colors",
+        "effect": "商业广告级品质"
+      },
+      {
+        "id": "lg015",
+        "name": "prismatic_light",
+        "zh": "棱镜光",
+        "prompt": "prismatic light refraction, rainbow spectrum, chromatic aberration effect",
+        "effect": "艺术感强，梦幻视觉效果"
+      },
+      {
+        "id": "lg016",
+        "name": "spotlight",
+        "zh": "聚光灯",
+        "prompt": "theatrical spotlight, focused beam of light, dark surrounding area",
+        "effect": "突出焦点，舞台感强"
+      },
+      {
+        "id": "lg017",
+        "name": "ambient_glow",
+        "zh": "环境辉光",
+        "prompt": "subtle ambient glow, ethereal light haze, dreamy atmosphere",
+        "effect": "柔和梦幻，适合奇幻题材"
+      },
+      {
+        "id": "lg018",
+        "name": " chiaroscuro",
+        "zh": "明暗对照法",
+        "prompt": "chiaroscuro technique, extreme light-dark contrast, baroque painting style",
+        "effect": "古典油画质感，艺术性强"
+      },
+      {
+        "id": "lg019",
+        "name": "diffused_overcast",
+        "zh": "阴天漫射光",
+        "prompt": "overcast sky, soft diffused natural light, even illumination no harsh shadows",
+        "effect": "均匀柔和，适合静物和食物"
+      },
+      {
+        "id": "lg020",
+        "name": "twinkling_lights",
+        "zh": "闪烁灯串",
+        "prompt": "string fairy lights twinkling bokeh effect warm white bulbs festive mood",
+        "effect": "温馨浪漫，节日氛围"
+      }
+    ],
+    
+    "composition": [
+      {
+        "id": "cp001",
+        "name": "rule_of_thirds",
+        "zh": "三分法则",
+        "prompt": "rule of thirds composition, subject placed at intersection points",
+        "effect": "平衡感强，经典构图"
+      },
+      {
+        "id": "cp002",
+        "name": "golden_ratio",
+        "zh": "黄金比例",
+        "prompt": "golden ratio spiral composition, fibonacci sequence arrangement",
+        "effect": "和谐美感，视觉舒适"
+      },
+      {
+        "id": "cp003",
+        "name": "symmetry",
+        "zh": "对称构图",
+        "prompt": "perfect symmetry, mirror reflection, balanced composition",
+        "effect": "庄重正式，适合建筑"
+      },
+      {
+        "id": "cp004",
+        "name": "leading_lines",
+        "zh": "引导线",
+        "prompt": "leading lines drawing eye toward subject, road railway converging perspective",
+        "effect": "引导视线，增强纵深感"
+      },
+      {
+        "id": "cp005",
+        "name": "frame_within_frame",
+        "zh": "框中框",
+        "prompt": "framing within frame, viewed through doorway or window arch",
+        "effect": "增加层次，聚焦主体"
+      },
+      {
+        "id": "cp006",
+        "name": "negative_space",
+        "zh": "留白",
+        "prompt": "minimalist negative space, lots of empty area around subject clean look",
+        "effect": "简约高级，适合文字排版"
+      },
+      {
+        "id": "cp007",
+        "name": "fill_the_frame",
+        "zh": "填满画面",
+        "prompt": "close-up filling entire frame intimate detail no background distraction",
+        "effect": "冲击力强，强调细节"
+      },
+      {
+        "id": "cp008",
+        "name": "bird_eye_view",
+        "zh": "俯拍",
+        "prompt": "bird's eye view top down shot flat lay overhead angle",
+        "effect": "全景展示，适合摆拍"
+      },
+      {
+        "id": "cp009",
+        "name": "worm_eye_view",
+        "zh": "仰拍",
+        "prompt": "worm's eye view low angle looking up majestic imposing subject",
+        "effect": "夸张高度，有气势"
+      },
+      {
+        "id": "cp010",
+        "name": "dynamic_angle",
+        "zh": "动态角度",
+        "prompt": "Dutch angle tilted horizon line dynamic uneasy feeling",
+        "effect": "动感强烈，打破常规"
+      },
+      {
+        "id": "cp011",
+        "name": "depth_of_field",
+        "zh": "景深效果",
+        "prompt": "shallow depth of field bokeh background blurred foreground elements layered composition",
+        "effect": "突出主体，增强立体感"
+      },
+      {
+        "id": "cp012",
+        "name": "layering",
+        "zh": "层次感",
+        "prompt": "foreground middle ground background clear layers depth perception",
+        "effect": "空间感强，丰富画面"
+      },
+      {
+        "id": "cp013",
+        "name": "pattern_repetition",
+        "zh": "图案重复",
+        "prompt": "repeating pattern visual rhythm breaking pattern for focal point",
+        "effect": "视觉节奏，发现亮点"
+      },
+      {
+        "id": "cp014",
+        "name": "diagonal_composition",
+        "zh": "对角线构图",
+        "prompt": "strong diagonal lines creating movement energy across frame",
+        "effect": "动感活泼，不呆板"
+      },
+      {
+        "id": "cp015",
+        "name": "triangular_composition",
+        "zh": "三角形构图",
+        "prompt": "triangular composition stable pyramid shape visually balanced",
+        "effect": "稳定结构，视觉安全"
+      },
+      {
+        "id": "cp016",
+        "name": "S_curve",
+        "zh": "S 形曲线",
+        "prompt": "S-shaped composition graceful flowing curve leading through image",
+        "effect": "优雅流畅，古典美"
+      },
+      {
+        "id": "cp017",
+        "name": "centrally_composed",
+        "zh": "中心构图",
+        "prompt": "centered composition subject directly in middle symmetrical framing",
+        "effect": "直接明确，权威感"
+      },
+      {
+        "id": "cp018",
+        "name": "isometric_view",
+        "zh": "等距视角",
+        "prompt": "isometric projection 3D view no perspective distortion technical clean",
+        "effect": "科技感，信息清晰"
+      },
+      {
+        "id": "cp019",
+        "name": "circular_composition",
+        "zh": "圆形构图",
+        "prompt": "circular composition concentric rings radial symmetry eye drawn center",
+        "effect": "向心聚焦，视觉统一"
+      },
+      {
+        "id": "cp020",
+        "name": "split_composition",
+        "zh": "分割构图",
+        "prompt": "split composition two distinct halves contrasting elements sides",
+        "effect": "对比强烈，主题明确"
+      },
+      {
+        "id": "cp021",
+        "name": "odd_numbers",
+        "zh": "奇数原则",
+        "prompt": "group of odd number subjects three five objects more natural pleasing",
+        "effect": "自然生动，避免单调"
+      }
+    ],
+    
+    "art_styles": [
+      {
+        "id": "st001",
+        "name": "photorealistic",
+        "zh": "超写实主义",
+        "prompt": "hyperrealistic photography ultra detailed lifelike indistinguishable from photo",
+        "effect": "真实到几乎以假乱真"
+      },
+      {
+        "id": "st002",
+        "name": "oil_painting",
+        "zh": "油画",
+        "prompt": "oil painting thick impasto brushstrokes classical canvas texture",
+        "effect": "艺术气息浓厚"
+      },
+      {
+        "id": "st003",
+        "name": "watercolor",
+        "zh": "水彩",
+        "prompt": "delicate watercolor paint bleeding edges soft transparent washes paper texture",
+        "effect": "清新柔美"
+      },
+      {
+        "id": "st004",
+        "name": "ink_wash",
+        "zh": "水墨画",
+        "prompt": "traditional Chinese ink wash painting black and white gradients artistic mist effects",
+        "effect": "东方美学意境"
+      },
+      {
+        "id": "st005",
+        "name": "anime_manga",
+        "zh": "动漫漫画",
+        "prompt": "Japanese anime style cel shaded vibrant colors expressive eyes manga aesthetic",
+        "effect": "二次元受众喜爱"
+      },
+      {
+        "id": "st006",
+        "name": "impressionism",
+        "zh": "印象派",
+        "prompt": "impressionist painting visible brush strokes emphasis light changing moments Monet Renoir style",
+        "effect": "光影氛围感强"
+      },
+      {
+        "id": "st007",
+        "name": "pop_art",
+        "zh": "波普艺术",
+        "prompt": "pop art Andy Warhol style bold colors halftone dots comic book influence",
+        "effect": "时尚潮流醒目"
+      },
+      {
+        "id": "st008",
+        "name": "surrealism",
+        "zh": "超现实主义",
+        "prompt": "surrealist artwork dreamlike impossible scenes Salvador Dali melting clocks",
+        "effect": "奇幻想象力强"
+      },
+      {
+        "id": "st009",
+        "name": "cyberpunk",
+        "zh": "赛博朋克",
+        "prompt": "cyberpunk aesthetic neon lights futuristic technology dystopian urban decay",
+        "effect": "科幻未来感"
+      },
+      {
+        "id": "st010",
+        "name": "steampunk",
+        "zh": "蒸汽朋克",
+        "prompt": "steampunk Victorian era brass gears steam powered machines vintage aesthetic",
+        "effect": "复古工业风"
+      },
+      {
+        "id": "st011",
+        "name": "art_nouveau",
+        "zh": "新艺术运动",
+        "prompt": "Art Nouveau organic flowing lines Alphonse Mucha floral motifs elegant decorative",
+        "effect": "优雅装饰性强"
+      },
+      {
+        "id": "st012",
+        "name": "pixel_art",
+        "zh": "像素艺术",
+        "prompt": "8-bit pixel art retro video game aesthetic nostalgic colorful sprites",
+        "effect": "怀旧游戏风"
+      },
+      {
+        "id": "st013",
+        "name": "flat_design",
+        "zh": "扁平设计",
+        "prompt": "flat design minimal vector graphics solid colors no gradients modern UI style",
+        "effect": "简洁现代"
+      },
+      {
+        "id": "st014",
+        "name": "low_poly",
+        "zh": "低多边形",
+        "prompt": "low poly 3D geometric shapes minimalist angular polygons stylized landscape",
+        "effect": "现代几何感"
+      },
+      {
+        "id": "st015",
+        "name": "sketch_drawing",
+        "zh": "素描手绘",
+        "prompt": "charcoal sketch pencil drawing rough hand-drawn lines artistic study",
+        "effect": "手工创作感"
+      },
+      {
+        "id": "st016",
+        "name": "line_art",
+        "zh": "线条艺术",
+        "prompt": "continuous line art minimal single stroke elegant simplified forms",
+        "effect": "极简现代"
+      },
+      {
+        "id": "st017",
+        "name": "double_exposure",
+        "zh": "双重曝光",
+        "prompt": "double exposure photograph blending two images seamless merge artistic overlay",
+        "effect": "创意叠加效果"
+      },
+      {
+        "id": "st018",
+        "name": "glitch_art",
+        "zh": "故障艺术",
+        "prompt": "digital glitch art data moshing distorted pixels VHS effect surreal tech",
+        "effect": "数字混乱美学"
+      },
+      {
+        "id": "st019",
+        "name": "fantasy_art",
+        "zh": "奇幻艺术",
+        "prompt": "fantasy digital painting mythical creatures magical landscapes epic scene cinematic",
+        "effect": "史诗感奇幻世界"
+      },
+      {
+        "id": "st020",
+        "name": "concept_art",
+        "zh": "概念艺术",
+        "prompt": "concept art matte painting movie production design environment concept highly detailed",
+        "effect": "专业级设定图"
+      },
+      {
+        "id": "st021",
+        "name": "ukiyo_e",
+        "zh": "浮世绘",
+        "prompt": "Japanese Ukiyo-e woodblock print Hokusai style wave patterns flat colors bold outlines",
+        "effect": "日本传统艺术"
+      },
+      {
+        "id": "st022",
+        "name": " Bauhaus",
+        "zh": "包豪斯",
+        "prompt": "Bauhaus design geometric shapes primary colors functional minimalist theory",
+        "effect": "现代设计起源风格"
+      },
+      {
+        "id": "st023",
+        "name": "graffiti_street_art",
+        "zh": "涂鸦街头艺术",
+        "prompt": "urban graffiti street art spray paint tags colorful murals city wall texture",
+        "effect": "年轻街头文化"
+      },
+      {
+        "id": "st024",
+        "name": "synthwave",
+        "zh": "合成波",
+        "prompt": "synthwave retrowave 80s aesthetic sunsets grids neon purple pink blue retro futurism",
+        "effect": "复古未来主义"
+      },
+      {
+        "id": "st025",
+        "name": "ghibli_style",
+        "zh": "吉卜力风格",
+        "prompt": "Studio Ghibli Hayao Miyazaki animated film style lush nature soft colors peaceful whimsical",
+        "effect": "治愈系动画风"
+      }
+    ],
+    
+    "materials": [
+      {
+        "id": "mt001",
+        "name": "silk_satin",
+        "zh": "丝绸缎面",
+        "prompt": "luxurious silk fabric satin smooth flowing draping reflective highlights delicate texture",
+        "effect": "高级柔软流动感"
+      },
+      {
+        "id": "mt002",
+        "name": "leather",
+        "zh": "皮革",
+        "prompt": "smooth leather texture grainy surface subtle wrinkles rich patina tactile feel",
+        "effect": "成熟有质感"
+      },
+      {
+        "id": "mt003",
+        "name": "metal_chrome",
+        "zh": "金属铬",
+        "prompt": "highly reflective chrome metal mirror surface steel brushed aluminum metallic sheen",
+        "effect": "科技现代冷峻"
+      },
+      {
+        "id": "mt004",
+        "name": "glass_transparent",
+        "zh": "透明玻璃",
+        "prompt": "transparent glass refracting light clarity reflections subtle imperfections crystal clear",
+        "effect": "纯净通透感"
+      },
+      {
+        "id": "mt005",
+        "name": "wood_rustic",
+        "zh": "原木 rustic",
+        "prompt": "weathered wood texture visible grain knots natural cracks rustic aged appearance",
+        "effect": "自然温暖质朴"
+      },
+      {
+        "id": "mt006",
+        "name": "marble_stone",
+        "zh": "大理石石材",
+        "prompt": "veined marble stone surface polished smooth luxurious calcification patterns cool temperature",
+        "effect": "奢华稳重经典"
+      },
+      {
+        "id": "mt007",
+        "name": "ceramic_porcelain",
+        "zh": "陶瓷瓷器",
+        "prompt": "glazed ceramic porcelain smooth glossy finish fine clay body delicate translucent",
+        "effect": "精致高雅东方"
+      },
+      {
+        "id": "mt008",
+        "name": "fur_faux_fur",
+        "zh": "毛皮人造毛皮",
+        "prompt": "fluffy faux fur plush texture soft fibers voluminous warm cozy inviting",
+        "effect": "温暖柔软亲肤"
+      },
+      {
+        "id": "mt009",
+        "name": "knitted_wool",
+        "zh": "针织羊毛",
+        "prompt": "hand-knitted wool sweater textured stitches cozy cable knit pattern soft yarn",
+        "effect": "温暖手工感"
+      },
+      {
+        "id": "mt010",
+        "name": "denim_jean",
+        "zh": "丹宁牛仔",
+        "prompt": "raw denim fabric twill weave fading whiskering authentic jean texture rugged durable",
+        "effect": "休闲年轻耐磨"
+      },
+      {
+        "id": "mt011",
+        "name": "lace_embroidery",
+        "zh": "蕾丝刺绣",
+        "prompt": "intricate lace detailing embroidered patterns delicate floral designs feminine romantic",
+        "effect": "优雅女性化精致"
+      },
+      {
+        "id": "mt012",
+        "name": "cartoon_skin",
+        "zh": "卡通皮肤",
+        "prompt": "porcelain skin flawless complexion smooth poreless ethereal glow soft radiance",
+        "effect": "完美无瑕仙气"
+      },
+      {
+        "id": "mt013",
+        "name": "weathered_patina",
+        "zh": "风化铜绿",
+        "prompt": "oxidized copper patina green verdigris aged metal ancient weathered surface historical",
+        "effect": "历史厚重感"
+      },
+      {
+        "id": "mt014",
+        "name": "translucent_jade",
+        "zh": "半透明玉石",
+        "prompt": "translucent jade stone milky green inner glow precious stone valued cultural significance",
+        "effect": "东方珍宝温润"
+      },
+      {
+        "id": "mt015",
+        "name": "carbon_fiber",
+        "zh": "碳纤维",
+        "prompt": "carbon fiber woven pattern lightweight strong matte black finish technological advanced",
+        "effect": "高科技轻量化"
+      },
+      {
+        "id": "mt016",
+        "name": "velvet_plush",
+        "zh": "天鹅绒",
+        "prompt": "rich velvet fabric deep pile soft touch light absorbing luxurious regal texture",
+        "effect": "华丽古典贵族"
+      },
+      {
+        "id": "mt017",
+        "name": "crystal_gemstone",
+        "zh": "水晶宝石",
+        "prompt": "faceted crystal gemstone sparkling prismatic light refraction precious valuable clear brilliance",
+        "effect": "璀璨夺目珍贵"
+      },
+      {
+        "id": "mt018",
+        "name": "rustic_paper",
+        "zh": "粗糙纸张",
+        "prompt": "aged parchment paper textured fibers handmade rough edge vintage antique appearance",
+        "effect": "古老手作风"
+      },
+      {
+        "id": "mt019",
+        "name": "plastic_acrylic",
+        "zh": "塑料亚克力",
+        "prompt": "smooth acrylic plastic glossy finish vibrant colors translucent opaque synthetic modern",
+        "effect": "现代工业鲜艳"
+      },
+      {
+        "id": "mt020",
+        "name": "concrete_rough",
+        "zh": "粗糙混凝土",
+        "prompt": "raw concrete texture cement grain industrial unfinished gray cold minimalist brutalist",
+        "effect": "粗犷工业极简"
+      },
+      {
+        "id": "mt021",
+        "name": "frosted_glass",
+        "zh": "磨砂玻璃",
+        "prompt": "frosted translucent glass diffused light soft obscuration privacy modern bathroom",
+        "effect": "朦胧隐私现代"
+      },
+      {
+        "id": "mt022",
+        "name": "holographic",
+        "zh": "全息",
+        "prompt": "iridescent holographic material rainbow shimmer color shifting surface futuristic sci-fi",
+        "effect": "未来科技感炫彩"
+      },
+      {
+        "id": "mt023",
+        "name": "moss_lichen",
+        "zh": "苔藓地衣",
+        "prompt": "green moss covering stones soft velvety texture damp forest floor organic ancient",
+        "effect": "自然生态古老"
+      },
+      {
+        "id": "mt024",
+        "name": "snow_ice",
+        "zh": "冰雪",
+        "prompt": "fresh powder snow crystalline ice formations frozen water sparkling winter cold pristine",
+        "effect": "纯净寒冷晶莹"
+      },
+      {
+        "id": "mt025",
+        "name": "liquid_metal",
+        "zh": "液态金属",
+        "prompt": "mercury-like liquid metal flowing droplets reflective surface morphing shapes sci-fi",
+        "effect": "科幻变形流动"
+      },
+      {
+        "id": "mt026",
+        "name": "feathers_down",
+        "zh": "羽毛绒羽",
+        "prompt": "soft feathers fluffy downy texture bird plumage delicate layers airborne floating",
+        "effect": "轻盈柔软飘逸"
+      },
+      {
+        "id": "mt027",
+        "name": "coral_reef",
+        "zh": "珊瑚礁",
+        "prompt": "colorful coral reef intricate branching patterns ocean ecosystem marine life vibrant underwater",
+        "effect": "海洋多彩生机"
+      },
+      {
+        "id": "mt028",
+        "name": "sand_dune",
+        "zh": "沙丘细沙",
+        "prompt": "fine golden sand dunes rippled textures desert wind-blown grains warm sunlight",
+        "effect": "沙漠辽阔温暖"
+      },
+      {
+        "id": "mt029",
+        "name": "rainwater_ripples",
+        "zh": "雨水涟漪",
+        "prompt": "raindrops creating ripples puddle reflections wet surfaces water droplets beads glistening",
+        "effect": "雨后清新倒影"
+      },
+      {
+        "id": "mt030",
+        "name": "smoke_vapor",
+        "zh": "烟雾蒸汽",
+        "prompt": "wisps of smoke curling vapor clouds ethereal drifting translucent mysterious atmosphere",
+        "effect": "神秘虚幻飘渺"
+      }
+    ],
+    
+    "color_palettes": [
+      {
+        "id": "cl001",
+        "name": "pastel_palette",
+        "zh": "马卡龙色系",
+        "prompt": "soft pastel color palette mint pink lavender baby blue creamy white gentle hues dreamy",
+        "effect": "甜美温柔梦幻"
+      },
+      {
+        "id": "cl002",
+        "name": "monochromatic_blue",
+        "zh": "单色蓝",
+        "prompt": "monochromatic blue scheme various shades navy to cyan calming cohesive sophisticated",
+        "effect": "冷静专业统一"
+      },
+      {
+        "id": "cl003",
+        "name": "warm_earth_tones",
+        "zh": "暖色调大地色",
+        "prompt": "warm earth tones terracotta beige ochre brown rust cozy natural grounded organic",
+        "effect": "温暖自然亲和"
+      },
+      {
+        "id": "cl004",
+        "name": "black_white_gold",
+        "zh": "黑白金",
+        "prompt": "classic black white and gold accents luxurious elegant timeless high-end luxury",
+        "effect": "奢华经典高级"
+      },
+      {
+        "id": "cl005",
+        "name": "complementary_red_green",
+        "zh": "互补红绿色",
+        "prompt": "bold complementary red and green high contrast festive vibrant christmas themed energetic",
+        "effect": "强烈对比活力"
+      },
+      {
+        "id": "cl006",
+        "name": "analogous_sunrise",
+        "zh": "类似色日出",
+        "prompt": "analogous colors orange yellow pink soft sunrise gradient harmonious peaceful warm",
+        "effect": "和谐温暖渐变"
+      },
+      {
+        "id": "cl007",
+        "name": "cool_neon_cyber",
+        "zh": "冷色霓虹",
+        "prompt": "electric blue magenta cyan neon glow dark background cyberpunk urban night vivid",
+        "effect": "炫酷未来都市"
+      },
+      {
+        "id": "cl008",
+        "name": "nature_verdant",
+        "zh": "自然翠绿",
+        "prompt": "lush green verdant forest palette different greens fresh leaves grass natural vitality",
+        "effect": "生机勃勃自然"
+      },
+      {
+        "id": "cl009",
+        "name": "retro_sepia",
+        "zh": "复古棕褐色",
+        "prompt": "vintage sepia toned aged photograph warm brown monochrome nostalgic antique old-timey",
+        "effect": "怀旧复古时光感"
+      },
+      {
+        "id": "cl010",
+        "name": "japanese_sakura",
+        "zh": "樱花粉",
+        "prompt": "cherry blossom pink palette sakura inspired pale pink white accents Japanese spring",
+        "effect": "浪漫日式春季"
+      },
+      {
+        "id": "cl011",
+        "name": "arctic_ice",
+        "zh": "北极冰原",
+        "prompt": "arctic ice color scheme white pale blue silver frosty icy cold pristine clean",
+        "effect": "纯洁冰冷空灵"
+      },
+      {
+        "id": "cl012",
+        "name": "sunset_gradiant",
+        "zh": "日落渐变",
+        "prompt": "sunset gradient orange to purple sky transitioning colors fiery warm dramatic beautiful",
+        "effect": "壮丽温暖渐变"
+      },
+      {
+        "id": "cl013",
+        "name": "forest_mushroom",
+        "zh": "森林蘑菇",
+        "prompt": "forest floor colors mushroom earthy browns moss greens fungi natural woodland cozy",
+        "effect": "自然森林神秘"
+      },
+      {
+        "id": "cl014",
+        "name": "ocean_deep_sea",
+        "zh": "深海",
+        "prompt": "deep ocean colors navy teal midnight blue aquatic abyss mysterious serene underwater",
+        "effect": "深邃宁静神秘"
+      },
+      {
+        "id": "cl015",
+        "name": "desert_sand",
+        "zh": "沙漠黄沙",
+        "prompt": "desert sand palette golden ochre tan burnt sienna arid hot dry warm sands",
+        "effect": "炎热干旱辽阔"
+      },
+      {
+        "id": "cl016",
+        "name": "autumn_leaves",
+        "zh": "秋叶",
+        "prompt": "fall foliage colors crimson orange yellow gold maple leaves seasonal harvest cozy",
+        "effect": "丰收温暖季节感"
+      },
+      {
+        "id": "cl017",
+        "name": "midnight_stars",
+        "zh": "午夜星空",
+        "prompt": "midnight blue starry night cosmos purple black celestial magical universe cosmic sparkle",
+        "effect": "神秘浪漫宇宙"
+      },
+      {
+        "id": "cl018",
+        "name": "spring_floral",
+        "zh": "春日花卉",
+        "prompt": "spring floral garden palette fresh flowers blooming tulips daisies bright cheerful new",
+        "effect": "新生欢快色彩"
+      },
+      {
+        "id": "cl019",
+        "name": "industrial_gray",
+        "zh": "工业灰",
+        "prompt": "industrial gray scale concrete steel machinery metallic monotone urban factory utilitarian",
+        "effect": "冷酷实用工业"
+      },
+      {
+        "id": "cl020",
+        "name": "medieval_fantasy",
+        "zh": "中世纪奇幻",
+        "prompt": "medieval fantasy palette dungeon stone armor steel torchlight candle warm dim medieval castle",
+        "effect": "古老史诗奇幻"
+      },
+      {
+        "id": "cl021",
+        "name": "tropical_paradise",
+        "zh": "热带天堂",
+        "prompt": "tropical paradise colors turquoise palm green hibiscus pink sandy beach vacation island sunny",
+        "effect": "度假热情放松"
+      },
+      {
+        "id": "cl022",
+        "name": "gothic_dark",
+        "zh": "哥特暗黑",
+        "prompt": "gothic dark palette black burgundy purple ravens cathedral shadows ominous mysterious medieval church",
+        "effect": "阴郁神秘庄严"
+      },
+      {
+        "id": "cl023",
+        "name": "candy_pop",
+        "zh": "糖果流行",
+        "prompt": "bright candy colors strawberry bubblegum taffy sweet saturated pop art playful fun childish",
+        "effect": "甜美俏皮童趣"
+      },
+      {
+        "id": "cl024",
+        "name": "minimalist_white",
+        "zh": "极简白",
+        "prompt": "minimalist all-white palette cream ivory stark clean airy spacious Scandinavian zen",
+        "effect": "简洁干净空灵"
+      },
+      {
+        "id": "cl025",
+        "name": "emerald_jewel",
+        "zh": "祖母绿宝石",
+        "prompt": "emerald jewel tones deep rich green gold accents royal expensive luxurious decadent",
+        "effect": "高贵奢华浓郁"
+      },
+      {
+        "id": "cl026",
+        "name": "lavender_fields",
+        "zh": "薰衣草田",
+        "prompt": "lavender purple field soft lilac hues Prov France serene romantic aromatic peaceful summer",
+        "effect": "宁静浪漫法式"
+      },
+      {
+        "id": "cl027",
+        "name": "autumn_pumpkin",
+        "zh": "南瓜橘",
+        "prompt": "pumpkin orange autumn palette Halloween harvest spice warm cozy fall season thankful",
+        "effect": "节庆温暖收获"
+      },
+      {
+        "id": "cl028",
+        "name": "winter_christmas",
+        "zh": "圣诞红绿",
+        "prompt": "Christmas red and green traditional holiday decorations snowy white presents warm fireplace festive",
+        "effect": "节日喜庆团圆"
+      },
+      {
+        "id": "cl029",
+        "name": "royal_imperial",
+        "zh": "皇家 imperial",
+        "prompt": "royal imperial colors purple gold crown king queen regalia majestic powerful aristocratic",
+        "effect": "威严尊贵王者"
+      },
+      {
+        "id": "cl030",
+        "name": "vintage_honey",
+        "zh": "复古蜂蜜",
+        "prompt": "honey amber vintage warm golden tones old photos nostalgic afternoon tea cozy time-worn",
+        "effect": "温暖怀旧悠闲"
+      }
+    ]
+  },
+
+  "scene-templates": {
+    "portrait_photography": [
+      {
+        "id": "pt001",
+        "category": "portrait",
+        "name": "elegant_portrait",
+        "title_zh": "优雅人像摄影",
+        "template": "{subject} in {setting}, wearing {outfit}, {lighting}, {camera_settings}, {style_keywords}",
+        "example_en": "young professional woman in modern office, wearing tailored blazer and blouse, rembrandt lighting, Sony A7R IV 85mm f/1.4, corporate headshot style",
+        "example_zh": "年轻职业女性在现代化办公室，穿着定制西装和衬衫，伦勃朗光，Sony A7R IV 85mm f/1.4，企业肖像风格"
+      },
+      {
+        "id": "pt002",
+        "category": "portrait",
+        "name": "fashion_editorial",
+        "title_zh": "时尚杂志大片",
+        "template": "{model_description} posing in {location}, styled in {fashion_items}, {lighting_type}, editorial magazine aesthetic",
+        "example_en": "tall model with platinum blonde hair posing on abandoned warehouse rooftop, styled in avant-garde designer pieces, dramatic sunset backlighting, Vogue editorial aesthetic",
+        "example_zh": "高挑铂金色头发模特在废弃仓库天台上摆姿，造型前卫设计师单品，戏剧性日落逆光，《Vogue》杂志编辑风格"
+      },
+      {
+        "id": "pt003",
+        "category": "portrait",
+        "name": "traditional_hanfu",
+        "title_zh": "古风汉服",
+        "template": "Chinese woman in {hanfu_style}, set in {traditional_setting}, {seasonal_elements}, soft natural lighting, traditional Chinese painting influence",
+        "example_en": "Chinese woman in Tang dynasty brocade hanfu, set in classical Chinese garden with pavilion, cherry blossoms falling in spring, soft morning light, traditional ink painting influence",
+        "example_zh": "身穿唐代织锦汉服的亚洲女性，背景为中国古典园林亭台，春日落花，柔和晨光，中国传统水墨画影响"
+      },
+      {
+        "id": "pt004",
+        "category": "portrait",
+        "name": "street_fashion",
+        "title_zh": "街头时尚",
+        "template": "stylish person on {city_street}, wearing {urban_outfit}, {time_of_day} lighting, candid street photography style",
+        "example_en": "stylish young man on Tokyo Shibuya crossing, wearing oversized streetwear and designer sneakers, golden hour lighting, candid street photography style",
+        "example_zh": "时髦年轻男子站在东京涩谷路口，穿着oversize 街头服饰和设计款运动鞋，黄金时刻光线，抓拍街头摄影风格"
+      },
+      {
+        "id": "pt005",
+        "category": "portrait",
+        "name": "bridal_beauty",
+        "title_zh": "新娘美容",
+        "template": "beautiful bride in {wedding_dress}, at {venue}, {lighting_condition}, romantic dreamy atmosphere",
+        "example_en": "beautiful bride in ivory silk mermaid wedding dress, at vineyard during golden hour, soft dappled sunlight through vines, romantic dreamy atmosphere",
+        "example_zh": "美丽的新娘穿着象牙色丝绸鱼尾婚纱，在葡萄园中黄金时刻，透过藤架的斑驳柔光，浪漫梦幻氛围"
+      },
+      {
+        "id": "pt006",
+        "category": "portrait",
+        "name": "maternity_photoshoot",
+        "title_zh": "孕妇写真",
+        "template": "expecting mother in {dress_style}, in {nature_setting}, natural soft light, emotional and intimate portraiture",
+        "example_en": "expecting mother in flowy maxi dress, in meadow with wildflowers, natural soft window light, emotional and intimate maternity portraiture",
+        "example_zh": "孕妇穿着飘逸长裙，在花野中，自然柔和窗光，情感亲密孕妇肖像"
+      },
+      {
+        "id": "pt007",
+        "category": "portrait",
+        "name": "senior_portrait",
+        "title_zh": "毕业照",
+        "template": "graduating student in cap and gown, at {school_landmark}, celebrating achievement, professional graduation photography",
+        "example_en": "graduating student in black cap and gown, at university library steps, celebrating academic achievement, professional senior portrait photography",
+        "example_zh": "毕业生身穿学士帽和学位服，在大学图书馆台阶前，庆祝学业成就，专业毕业照摄影"
+      },
+      {
+        "id": "pt008",
+        "category": "portrait",
+        "name": "headshot_pro",
+        "title_zh": "专业头像",
+        "template": "professional headshot of {occupation}, neutral backdrop, studio lighting, corporate ready",
+        "example_en": "professional headshot of female CEO, neutral gray backdrop, three-point studio lighting, LinkedIn-ready corporate portrait",
+        "example_zh": "女 CEO 专业肖像照，中性灰色背景，三点式影棚布光，适用于领英的企业肖像"
+      },
+      {
+        "id": "pt009",
+        "category": "portrait",
+        "name": "artistic_boudoir",
+        "title_zh": "艺术闺房摄影",
+        "template": "artistic boudoir photography, {subject_in_lingerie}, soft romantic lighting, intimate sensual atmosphere",
+        "example_en": "artistic boudoir photography, confident woman in lace lingerie, soft romantic candlelight, intimate sensual moody atmosphere",
+        "example_zh": "艺术闺房摄影，自信女子身着蕾丝内衣，柔和浪漫的烛光，亲密感性氛围"
+      },
+      {
+        "id": "pt010",
+        "category": "portrait",
+        "name": "vintage_retro",
+        "title_zh": "复古怀旧",
+        "template": "vintage style portrait reminiscent of {decade}, {period_clothing}, sepia or desaturated colors, antique filter",
+        "example_en": "vintage style portrait reminiscent of 1950s Hollywood glamour, period-appropriate victory roll hairstyle and polka dot dress, sepia toned with vignette",
+        "example_zh": "仿 1950 年代好莱坞 glamour 风格的复古肖像，符合时代特征的胜利卷发和波点裙，棕褐色调加暗角"
+      }
+    ],
+    
+    "product_photography": [
+      {
+        "id": "pp001",
+        "category": "product",
+        "name": "cosmetics_flatlay",
+        "title_zh": "化妆品平铺展示",
+        "template": "aesthetic flat lay composition of {product_category}, arranged on {background_surface}, soft morning light, lifestyle influencer style",
+        "example_en": "aesthetic flat lay composition of skincare products including serum bottles and creams, arranged on marble tray with eucalyptus sprigs, soft morning natural light, Instagram influencer lifestyle style",
+        "example_zh": "护肤品（精华瓶和面霜）的美感平铺构图，摆放在带有尤加利枝的马赛克托盘上，柔和晨光，Instagram 网红生活方式风格"
+      },
+      {
+        "id": "pp002",
+        "category": "product",
+        "name": "jewelry_macro",
+        "title_zh": "珠宝微距",
+        "template": "macro product photography of {jewelry_piece}, dramatic lighting highlighting facets, luxury commercial advertisement style",
+        "example_en": "macro product photography of diamond engagement ring, dramatic spot lighting highlighting gem facets, luxury jewelry commercial advertising style, 8K resolution",
+        "example_zh": "钻戒的微距产品摄影，戏剧性聚光灯突出宝石切面，奢华珠宝商业广告风格，8K 分辨率"
+      },
+      {
+        "id": "pp003",
+        "category": "product",
+        "name": "perfume_bottle",
+        "title_zh": "香水瓶",
+        "template": "elegant perfume bottle as centerpiece, {prop_decorations}, cinematic lighting, premium fragrance commercial",
+        "example_en": "elegant frosted glass perfume bottle as centerpiece surrounded by rose petals and morning dew droplets, cinematic volume lighting, premium fragrance brand commercial",
+        "example_zh": "作为主角的磨砂玻璃香水瓶，周围环绕玫瑰花瓣和晨露水珠，电影级体积光，高端香水品牌广告"
+      },
+      {
+        "id": "pp004",
+        "category": "product",
+        "name": "tech_gadget",
+        "title_zh": "科技数码",
+        "template": "modern {tech_device} on clean desk setup, minimal aesthetic, professional product showcase, Apple-style presentation",
+        "example_en": "modern wireless headphones on clean walnut desk setup with notebook and coffee cup, minimalist aesthetic, professional tech product showcase, Apple-keynote-style presentation",
+        "example_zh": "无线耳机放在干净的核桃木桌面上，配有笔记本和咖啡杯，极简美学，专业科技产品展示，苹果发布会风格"
+      },
+      {
+        "id": "pp005",
+        "category": "product",
+        "name": "food_plating",
+        "title_zh": "美食摆盘",
+        "template": "gourmet {dish_name} professionally plated, overhead shot, restaurant quality, food styling masterpiece",
+        "example_en": "gourmet artisan sourdough bread with herb butter professionally plated on slate board, 45-degree overhead shot, Michelin-star restaurant quality, food styling masterpiece",
+        "example_zh": "美食级手工酸面包配香草黄油专业摆放在石板盘上，45 度俯拍，米其林星级餐厅品质，美食摆盘杰作"
+      },
+      {
+        "id": "pp006",
+        "category": "product",
+        "name": "watch_luxury",
+        "title_zh": "奢华腕表",
+        "template": "luxury mechanical watch close-up, showing intricate movement details, dramatic side lighting, status symbol imagery",
+        "example_en": "luxury Swiss automatic mechanical watch close-up showing exposed movement gears and sapphire crystal back, dramatic侧光 illuminating dial numerals, prestigious timepiece status symbol imagery",
+        "example_zh": "奢华瑞士自动机械表特写，展示精密机芯齿轮和蓝宝石背透，戏剧性侧光照亮表盘数字，名贵时计身份象征图像"
+      },
+      {
+        "id": "pp007",
+        "category": "product",
+        "name": "coffee_culture",
+        "title_zh": "咖啡文化",
+        "template": "artisan coffee preparation scene, {brew_method}, warm cafe ambiance, lifestyle content creation style",
+        "example_en": "artisan pour-over coffee brewing scene using V60 dripper with freshly ground beans, warm cozy cafe interior with Edison bulbs, Instagram lifestyle content style",
+        "example_zh": "V60 手冲咖啡制作场景，使用现磨咖啡豆，温暖舒适的咖啡馆内部配爱迪生灯泡，Instagram 生活方式内容风格"
+      },
+      {
+        "id": "pp008",
+        "category": "product",
+        "name": "sneaker_drop",
+        "title_zh": "球鞋发售",
+        "template": "limited edition {sneaker_model} hero shot, suspended mid-air or on rotating display, hype culture aesthetics",
+        "example_en": "limited edition collaborative basketball sneaker hero shot suspended mid-air against dark backdrop with colored rim lights, streetwear hype culture aesthetics, motion blur on laces",
+        "example_zh": "限量版联名篮球鞋主视图悬浮于空中，深色背景配以彩色轮廓光，街头潮流感审美，鞋带轻微运动模糊"
+      },
+      {
+        "id": "pp009",
+        "category": "product",
+        "name": "fragrance_mood",
+        "title_zh": "香氛氛围",
+        "template": "evocative fragrance scene suggesting {scent_notes}, atmospheric props, mood lighting, storytelling approach",
+        "example_en": "evocative lavender scent scene suggesting Mediterranean summer, dried lavender bundles, rustic wooden table, golden hour soft lighting, sensory storytelling approach",
+        "example_zh": "唤起地中海夏季氛围的薰衣草香氛场景，干燥薰衣草束，乡村木桌，黄金时刻柔光，感官叙事方法"
+      },
+      {
+        "id": "pp010",
+        "category": "product",
+        "name": "skincare_routine",
+        "title_zh": "护肤流程",
+        "template": "skincare routine step-by-step visualization, {product_types} arranged in order, clean minimalist spa aesthetic",
+        "example_en": "skincare routine step-by-step visualization with cleanser toner serum moisturizer SPF arranged chronologically, clean minimalist Korean spa aesthetic, bright clinical white background",
+        "example_zh": "护肤步骤可视化展示：洁面→爽肤水→精华→保湿→防晒依次排列，干净极简韩式 SPA 美学，明亮临床白色背景"
+      }
+    ],
+
+    "interior_architecture": [
+      {
+        "id": "ia001",
+        "category": "architecture",
+        "name": "scandinavian_interior",
+        "title_zh": "北欧风室内",
+        "template": "Scandinavian living room design, {furniture_pieces}, abundant natural light, hygge atmosphere, architectural photography",
+        "example_en": "Scandinavian minimalist living room design with low-profile sectional sofa, abstract art, and indoor plants, abundant natural light through floor-to-ceiling windows, cozy hygge atmosphere, Architectural Digest photography style",
+        "example_zh": "北欧极简客厅设计，低矮模块化沙发、抽象艺术画和室内绿植，落地窗引入充沛自然光，舒适温馨 hygge 氛围，《Architectural Digest》摄影风格"
+      },
+      {
+        "id": "ia002",
+        "category": "architecture",
+        "name": "industrial_loft",
+        "title_zh": "工业风 loft",
+        "template": "industrial loft apartment, exposed brick and ductwork, {industrial_elements}, urban conversion aesthetic",
+        "example_en": "industrial conversion loft apartment with exposed red brick walls, black steel ceiling ductwork, hanging Edison bulb pendants, reclaimed wood dining table, urban warehouse conversion aesthetic",
+        "example_zh": "工业改造 loft 公寓，裸露红砖墙、黑色钢结构天花板管道、悬挂爱迪生灯泡吊灯、再生木餐桌，城市仓库改造美学"
+      },
+      {
+        "id": "ia003",
+        "category": "architecture",
+        "name": "japanese_minimal",
+        "title_zh": "日式极简",
+        "template": "Japanese minimalist interior, tatami mats, sliding shoji screens, {zen_elements}, wabi-sabi philosophy",
+        "example_en": "Japanese minimalist bedroom interior with natural tatami straw mats, translucent shoji sliding doors, low platform bed, ikebana flower arrangement, wabi-sabi imperfect beauty philosophy",
+        "example_zh": "日式极简卧室，天然榻榻米草席、半透明障子推拉门、低矮平台床、插花摆件，侘寂美学理念"
+      },
+      {
+        "id": "ia004",
+        "category": "architecture",
+        "name": "boho_charm",
+        "title_zh": "波西米亚风情",
+        "template": "bohemian eclectic room, macrame wall hangings, plants everywhere, warm textiles, free-spirited vibe",
+        "example_en": "bohemian eclectic bedroom with macramé wall hangings, hanging planters throughout, Moroccan poufs, layered rugs, warm earth tone textiles, free-spirited traveler vibe",
+        "example_zh": "波西米亚混搭卧室，macramé壁挂，到处悬挂植物盆栽，摩洛哥坐垫，分层地毯，暖大地色系纺织品，自由旅行者氛围"
+      },
+      {
+        "id": "ia005",
+        "category": "architecture",
+        "name": "modern_kitchen",
+        "title_zh": "现代厨房",
+        "template": "gourmet chef kitchen, {countertop_material}, stainless steel appliances, island seating, functional luxury",
+        "example_en": "gourmet chef kitchen with quartz waterfall countertops, integrated stainless steel appliances, large island with pendant lighting over seating area, functional luxury design",
+        "example_zh": "美食家级主厨厨房，石英石瀑布台面，嵌入式不锈钢电器，大型岛台配上方吊灯光照用餐区，功能奢华设计"
+      },
+      {
+        "id": "ia006",
+        "category": "architecture",
+        "name": "bedroom_sanctuary",
+        "title_zh": "卧室圣殿",
+        "template": "serene master bedroom sanctuary, {bedding_type}, ambient lighting layers, hotel resort experience",
+        "example_en": "serene white master bedroom sanctuary with six-layer linen bedding, layered ambient lighting including wall sconces and bedside lamps, Five-Star hotel resort spa experience",
+        "example_zh": "宁静白色主卧圣殿，六层亚麻床品，分层环境照明包括壁灯和床头灯，五星级酒店度假村 SPA 体验"
+      },
+      {
+        "id": "ia007",
+        "category": "architecture",
+        "name": "home_office",
+        "title_zh": "家庭办公",
+        "template": "productive home office setup, ergonomic furniture, {technology_integration}, work-from-home professional look",
+        "example_en": "productive WFH home office setup with Herman Miller ergonomic chair, standing desk, triple monitor setup, cable management, work-from-home executive professional aesthetic",
+        "example_zh": "高效居家办公设置，Herman Miller 人体工学椅，升降桌，三显示器配置，理线系统，居家办公主管美学"
+      },
+      {
+        "id": "ia008",
+        "category": "architecture",
+        "name": "bathroom_spaa",
+        "title_zh": "浴室 SPA",
+        "template": "spa-like bathroom retreat, soaking tub, {bathroom_finishes}, relaxation-focused design",
+        "example_en": "spa-like bathroom retreat with freestanding soaking tub, heated marble floors, rainfall showerhead, salt stone walls, relaxation-focused wellness design",
+        "example_zh": "类 SPA 浴室避难所，独立泡澡缸，加热大理石地面，雨淋式花洒，盐石墙面，专注放松的健康设计"
+      },
+      {
+        "id": "ia009",
+        "category": "architecture",
+        "name": "exterior_facade",
+        "title_zh": "建筑外立面",
+        "template": "modern residential facade, {architectural_style}, dusk lighting, real estate marketing photography",
+        "example_en": "modern contemporary residential facade with horizontal cedar siding and floor-to-ceiling windows, dramatic dusk lighting with interior warm glows, Zillow real estate marketing photography",
+        "example_zh": "现代当代住宅外立面，水平雪松板材和落地窗，戏剧性黄昏照明结合室内暖光，Zillow 房地产营销摄影"
+      },
+      {
+        "id": "ia010",
+        "category": "architecture",
+        "name": "staircase_detail",
+        "title_zh": "楼梯细节",
+        "template": "statement staircase architectural feature, {staircase_material}, dramatic perspective angle, interior design highlight",
+        "example_en": "floating oak staircase architectural statement piece, continuous handrail without visible supports, dramatic worm's eye perspective angle, luxury interior design showpiece",
+        "example_zh": "悬浮橡木楼梯建筑声明作品，无可见支撑的连续扶手，仰视戏剧性视角，豪华室内设计展品"
+      }
+    ],
+
+    "illustration_concept": [
+      {
+        "id": "il001",
+        "category": "illustration",
+        "name": "book_cover_fantasy",
+        "title_zh": "奇幻书籍封面",
+        "template": "fantasy book cover illustration, {protagonist_character}, epic magical landscape, {art_style}, bestseller quality",
+        "example_en": "fantasy novel book cover illustration featuring a young witch apprentice holding a glowing staff, epic mountain range backdrop with floating islands, oil painting style, New York Times bestseller quality",
+        "example_zh": "奇幻小说书籍封面插画，年轻女巫学徒手持发光法杖，史诗山脉背景配悬浮岛屿，油画风格，《纽约时报》畅销书品质"
+      },
+      {
+        "id": "il002",
+        "category": "illustration",
+        "name": "character_sheet",
+        "title_zh": "角色设定稿",
+        "template": "complete character turn-around sheet, {character_type}, multiple poses and expressions, animation production ready",
+        "example_en": "complete anime character turn-around sheet showing front side and back views of teenage mage character, multiple facial expressions and weapon variations, animation production pipeline ready",
+        "example_zh": "完整动漫角色三视图，展示青少年法师角色的正面、侧面和背面，多种面部表情和武器变体，动画制作管线就绪"
+      },
+      {
+        "id": "il003",
+        "category": "illustration",
+        "name": "environment_concept",
+        "title_zh": "环境概念图",
+        "template": "game environment concept art, {location_type}, atmospheric conditions, mood lighting, AAA game quality",
+        "example_en": "AAA video game environment concept art depicting an ancient temple ruins engulfed in mystical fog, overgrown vegetation, dappled sunlight filtering through canopy, cinematic atmosphere",
+        "example_zh": "AAA 电子游戏环境概念艺术，描绘被神秘雾气笼罩的古庙废墟，茂密植被，斑驳阳光穿透树冠，电影般氛围"
+      },
+      {
+        "id": "il004",
+        "category": "illustration",
+        "name": "storyboard_panel",
+        "title_zh": "故事板分镜",
+        "template": "cinematic storyboard panel, {action_moment}, dynamic camera angle, sequential storytelling",
+        "example_en": "cinematic action storyboard panel showing hero jumping between crumbling buildings, dramatic low-angle perspective, motion blur on background, sequential storytelling frame 7 of 12",
+        "example_zh": "电影动作故事板分镜，英雄在倒塌建筑间跳跃，戏剧性仰角透视，背景运动模糊，12 格序列第 7 格"
+      },
+      {
+        "id": "il005",
+        "category": "illustration",
+        "name": "infographic_visual",
+        "title_zh": "信息图视觉",
+        "template": "clean infographic illustration explaining {topic}, simple icons and charts, educational content style",
+        "example_en": "clean modern infographic illustration explaining climate change causes, simple flat icons showing carbon emissions, deforestation, fossil fuels, educational whitepaper style",
+        "example_zh": "简洁现代信息图，解释气候变化原因，简单扁平图标展示碳排放、森林砍伐、化石燃料，教育白皮书风格"
+      },
+      {
+        "id": "il006",
+        "category": "illustration",
+        "name": "poster_art",
+        "title_zh": "海报艺术",
+        "template": "vintage travel poster style, {destination_place}, bold typography, retro color palette, tourism promotion",
+        "example_en": "vintage 1950s-style travel poster promoting Kyoto Japan, bold Art Deco typography reading 'Discover Eternal Kyoto', rich red and gold retro color palette, tourism board promotion",
+        "example_zh": "仿 1950 年代复古旅行海报推广日本京都，醒目装饰艺术字体写着‘发现永恒京都’，浓郁的红色与金色复古配色，旅游局宣传"
+      },
+      {
+        "id": "il007",
+        "category": "illustration",
+        "name": "album_cover",
+        "title_zh": "专辑封面",
+        "template": "music album cover artwork, {genre_aesthetic}, evocative imagery, record label quality, vinyl ready",
+        "example_en": "indie folk music album cover artwork featuring silhouetted couple walking into sunset, warm gradient sky, grainy film texture, Sub Pop record label quality, 12-inch vinyl ready",
+        "example_zh": "独立民谣音乐专辑封面，剪影情侣走向夕阳，温暖渐变天空，颗粒胶片质感，Sub Pop 唱片公司品质，12 英寸黑胶可用"
+      },
+      {
+        "id": "il008",
+        "category": "illustration",
+        "name": "children_book",
+        "title_zh": "儿童绘本",
+        "template": "whimsical children's book illustration, {friendly_character}, soft watercolor palette, bedtime story mood",
+        "example_en": "whimsical children's book illustration of a brave little bunny exploring enchanted forest, soft watercolor palette with pastel greens and blues, warm bedtime story reading mood",
+        "example_zh": "异想天开儿童绘本插图，勇敢的小兔子探索魔法森林，柔和水彩配色，浅绿与淡蓝，温馨睡前阅读氛围"
+      },
+      {
+        "id": "il009",
+        "category": "illustration",
+        "name": "logo_brand_identity",
+        "title_zh": "Logo 品牌标识",
+        "template": "minimalist logo design concept for {business_type}, {symbol_element}, versatile scalable, brand identity system",
+        "example_en": "minimalist modern logo design concept for sustainable fashion boutique, leaf-and-arrow symbol representing growth direction, black and white versatile scalable vector, complete brand identity system",
+        "example_zh": "可持续时尚精品店极简现代 Logo 设计方案，代表成长方向的叶片 + 箭头符号，黑白通用可缩放矢量，完整品牌形象系统"
+      },
+      {
+        "id": "il010",
+        "category": "illustration",
+        "name": "social_media_banner",
+        "title_zh": "社交媒体横幅",
+        "template": "eye-catching social media banner for {platform}, {key_message}, optimized dimensions, viral potential",
+        "example_en": "eye-catching YouTube channel banner for cooking tutorial content, text overlay saying 'Master Any Recipe in 10 Minutes', optimized 2560x1440 dimensions, viral cooking hashtag potential",
+        "example_zh": "引人注目的烹饪教程 YouTube 频道横幅，文字叠加'10 分钟掌握任何食谱'，优化尺寸 2560x1440，病毒性烹饪话题标签潜力"
+      }
+    ],
+
+    "3d_render_modern": [
+      {
+        "id": "3d001",
+        "category": "3d-render",
+        "name": "archviz_interior",
+        "title_zh": "建筑可视化室内",
+        "template": "photorealistic architectural visualization of {room_type}, {material_specifications}, ray-traced lighting, Unreal Engine 5 quality",
+        "example_en": "photorealistic architectural visualization of contemporary luxury living room, Italian marble flooring, custom leather sofas, ray-traced global illumination rendering, Unreal Engine 5 photogrammetry quality",
+        "example_zh": "当代奢华客厅照片级真实性建筑可视化，意大利大理石地板，定制真皮沙发，光线追踪全局光照渲染，虚幻引擎 5 摄影测量品质"
+      },
+      {
+        "id": "3d002",
+        "category": "3d-render",
+        "name": "product_mockup",
+        "title_zh": "产品模型展示",
+        "template": "3D product mockup of {product_name}, {viewing_angle}, studio environment, E-commerce ready",
+        "example_en": "3D product mockup of sleek smartphone, three-quarter rear view showing camera array, neutral gray studio environment with soft reflections, Amazon e-commerce listing ready",
+        "example_zh": "流线型智能手机 3D 产品展示，四分之三后置视角展示摄像头阵列，中性灰色摄影棚环境带柔和反射，亚马逊电商上架准备就绪"
+      },
+      {
+        "id": "3d003",
+        "category": "3d-render",
+        "name": "vehicle_showcase",
+        "title_zh": "车辆展示",
+        "template": "automotive 3D render of {car_model}, dynamic angle, {surface_finish}, car manufacturer promotional material",
+        "example_en": "ultra-realistic 3D render of electric sports coupe, dramatic 3/4 front quarter view, pearlescent paint finish reflecting studio lights, Tesla-level automotive promotional material",
+        "example_zh": "超真实电动轿跑 3D 渲染，戏剧性四分之三前侧视角，珍珠漆面反射工作室灯光，特斯拉级别汽车宣传物料"
+      },
+      {
+        "id": "3d004",
+        "category": "3d-render",
+        "name": "furniture_catalog",
+        "title_zh": "家具目录",
+        "template": "furniture catalog 3D render, {furniture_item}, isolated on {background}, showroom quality",
+        "example_en": "mid-century modern armchair furniture catalog 3D render, walnut wood frame with teal velvet upholstery, isolated on pure white background with drop shadow, West Elm showroom quality",
+        "example_zh": "中世纪现代扶手椅家具目录 3D 渲染，胡桃木框架配青绿天鹅绒软垫，纯白背景隔离配投影，West Elm 展厅品质"
+      },
+      {
+        "id": "3d005",
+        "category": "3d-render",
+        "name": "sci_fi_enviroment",
+        "title_zh": "科幻场景",
+        "template": "sci-fi 3D environment render, {space_station_element}, holographic interfaces, futuristic cityscape background",
+        "example_en": "sci-fi spaceship corridor 3D environment render, cylindrical rotating habitat section with holographic navigation displays, glass walls showing rotating Earth below, futuristic interior design",
+        "example_zh": "科幻飞船走廊 3D 环境渲染，圆柱形旋转栖息舱段带全息导航显示屏，玻璃墙显示下方旋转地球，未来主义室内设计"
+      },
+      {
+        "id": "3d006",
+        "category": "3d-render",
+        "name": "character_model",
+        "title_zh": "角色模型",
+        "template": "next-gen character 3D model, {character_archetype}, PBR materials, game engine compatible",
+        "example_en": "next-gen fantasy warrior character 3D model, female elven ranger with detailed chainmail armor, PBR textured materials with subsurface scattering, Unity/Unreal compatible topology",
+        "example_zh": "次世代奇幻战士角色 3D 模型，女精灵游侠配精细锁子甲铠甲，PBR 纹理材质含次表面散射，Unity/Unreal 兼容拓扑结构"
+      },
+      {
+        "id": "3d007",
+        "category": "3d-render",
+        "name": "food_product",
+        "title_zh": "食品 CG",
+        "template": "hyper-realistic 3D food render, {dish_detailed}, mouth-watering appeal, commercial advertising standard",
+        "example_en": "hyper-realistic 3D render of gourmet burger with dripping cheese and sesame seed bun, macro detail on juicy beef patty, commercial fast-food advertising standard, appetizing steam rising",
+        "example_zh": "超真实 3D 美食渲染，奢华汉堡配滴落芝士和芝麻面包，多汁牛肉饼微距细节，商业快餐广告标准，诱人蒸汽升腾"
+      },
+      {
+        "id": "3d008",
+        "category": "3d-render",
+        "name": "abstract_shape",
+        "title_zh": "抽象形态",
+        "template": "abstract 3D shape composition, fluid forms, iridescent materials, digital art gallery exhibition style",
+        "example_en": "abstract 3D shape composition with flowing organic blobs in iridescent rainbow metals, soft studio lighting creating caustics, digital art NFT gallery exhibition style",
+        "example_zh": "抽象 3D 形态组合，流动的有机块体呈彩虹金属虹彩，柔和工作室灯光产生焦散，数字艺术 NFT 画廊展览风格"
+      },
+      {
+        "id": "3d009",
+        "category": "3d-render",
+        "name": "macro_object",
+        "title_zh": "微距物体",
+        "template": "extreme macro 3D render of everyday object, {object_name}, revealing hidden details, creative photography",
+        "example_en": "extreme macro 3D render of mechanical watch movement, revealing tiny gears springs and jewels normally invisible to naked eye, creative product photography style",
+        "example_zh": "机械手表机芯极端微距 3D 渲染，揭示肉眼通常不可见的微小齿轮弹簧宝石，创意产品展示摄影风格"
+      },
+      {
+        "id": "3d010",
+        "category": "3d-render",
+        "name": "particle_effect",
+        "title_zh": "粒子特效",
+        "template": "dynamic particle system render, {element_particles}, volumetric lighting, motion capture quality",
+        "example_en": "dynamic embers and sparks particle system render from crackling fireplace, volumetric smoke plumes catching firelight, real-time motion capture quality for VFX shots",
+        "example_zh": "噼啪壁炉产生的动态余烬火花粒子系统渲染，体积烟雾柱捕捉火光，实时动作捕捉质量的 VFX 镜头"
+      }
+    ],
+
+    "lifestyle_scene": [
+      {
+        "id": "ls001",
+        "category": "lifestyle",
+        "name": "morning_routine",
+        "title_zh": "晨间routine",
+        "template": "peaceful morning routine scene, {activity_focus}, soft dawn light streaming through window, calm start to day",
+        "example_en": "peaceful morning yoga routine scene, woman doing sun salutation on balcony, soft dawn golden light streaming through sheer curtains, calm mindful start to productive day",
+        "example_zh": "平静的晨间瑜伽场景，女子在阳台做太阳礼拜，柔和黎明金光透过薄纱窗帘，平静正念开启高效一天"
+      },
+      {
+        "id": "ls002",
+        "category": "lifestyle",
+        "name": "weekend_brunch",
+        "title_zh": "周末早午餐",
+        "template": "social weekend brunch gathering, {friends_group}, mimosas and pastries, sunny patio setting",
+        "example_en": "social millennial friends weekend brunch gathering at trendy cafe patio, champagne mimosas and avocado toast plates, sunny Saturday morning outdoor setting",
+        "example_zh": "千禧一代朋友周末早午餐聚会，潮牌咖啡厅露台，香槟蛋酒和牛油果吐司，周六上午阳光明媚户外场景"
+      },
+      {
+        "id": "ls003",
+        "category": "lifestyle",
+        "name": "cozy_evening",
+        "title_zh": "惬意夜晚",
+        "template": "hygge cozy evening at home, {relaxation_activity}, candles and soft blankets, comfort zone aesthetic",
+        "example_en": "hygge cozy winter evening at home, person reading book by fireplace with knitted blanket draped over shoulders, flickering candlelight and soft throw pillows, ultimate comfort zone aesthetic",
+        "example_zh": "hygge 温馨冬日居家夜晚，人物在壁炉旁读针织毯裹肩，摇曳烛光柔软靠垫，极致舒适区美学"
+      },
+      {
+        "id": "ls004",
+        "category": "lifestyle",
+        "name": "fitness_motivation",
+        "title_zh": "健身励志",
+        "template": "athletic fitness motivation shot, {workout_type}, sweat and determination, gym or outdoor training setting",
+        "example_en": "powerful fitness motivation shot of muscular woman mid-bench press, visible sweat droplets and determined facial expression, professional gym setting with rack lighting",
+        "example_zh": "力量健身励志镜头，肌肉女性卧推中途，可见汗水滴和坚定表情，专业健身房配排灯照明"
+      },
+      {
+        "id": "ls005",
+        "category": "lifestyle",
+        "name": "creative_workspace",
+        "title_zh": "创意工作空间",
+        "template": "artist creative workspace, {tools_supplies}, inspiration everywhere, messy but productive vibe",
+        "example_en": "painter artist creative workspace filled with canvases easels tubes of oil paint, coffee cups scattered around,灵感便签 everywhere, messy but passionately productive vibe",
+        "example_zh": "画家艺术家创意工作空间，布满画布画架油彩管，咖啡杯散落四周，灵感便签无处不在，凌乱但充满激情的高效氛围"
+      },
+      {
+        "id": "ls006",
+        "category": "lifestyle",
+        "name": "shopping_addict",
+        "title_zh": "购物狂",
+        "template": "retail therapy shopping haul, {shopping_bag_count}, fashionable clothes spread out, Instagram unboxing style",
+        "example_en": "retail therapy shopping haul flat lay, twelve designer shopping bags from luxury mall, fashionable outfits and accessories spread across bed, Pinterest unboxing style with confetti props",
+        "example_zh": "零售疗法购物战利品平铺，十二个奢侈品购物中心设计师购物袋，时尚服装配饰铺开在床上，Pinterest 开箱风格配彩纸道具"
+      },
+      {
+        "id": "ls007",
+        "category": "lifestyle",
+        "name": "travel_adventure",
+        "title_zh": "旅行冒险",
+        "template": "wanderlust travel adventure moment, {landmark_location}, backpacker gear, sense of discovery",
+        "example_en": "wanderlust travel adventure moment at Machu Picchu sunrise, solo female traveler with large backpack gazing at ancient ruins, sense of awe and personal discovery",
+        "example_zh": "流浪者旅行冒险时刻在马丘比丘日出，独自女性旅行者背大背包凝视古代遗迹，敬畏和个人发现感"
+      },
+      {
+        "id": "ls008",
+        "category": "lifestyle",
+        "name": "date_night",
+        "title_zh": "约会之夜",
+        "template": "romantic date night dinner, {couple_action}, candlelit restaurant ambiance, special occasion mood",
+        "example_en": "romantic first anniversary date night dinner at intimate bistro, couple holding hands across table, candlelit warm restaurant ambiance with string lights, special occasion celebration mood",
+        "example_zh": "浪漫一周年纪念约会晚餐在亲密小酒馆，情侣隔桌牵手，烛光温暖餐厅氛围配串灯，特殊场合庆祝氛围"
+      },
+      {
+        "id": "ls009",
+        "category": "lifestyle",
+        "name": "pet_lover",
+        "title_zh": "宠物爱好者",
+        "template": "heartwarming pet owner moment, {pet_activity}, cozy home setting, wholesome content",
+        "example_en": "heartwarming golden retriever puppy playing with toddler in living room, soft carpet, natural window light, wholesome family pet content worthy of viral sharing",
+        "example_zh": "暖心金毛幼犬与幼儿在客厅玩耍，柔软地毯，自然窗光，值得病毒式分享的 wholesome 家庭宠物内容"
+      },
+      {
+        "id": "ls010",
+        "category": "lifestyle",
+        "name": "study_session",
+        "title_zh": "学习 session",
+        "template": "productive study session setup, {subjects_books}, organized notes, focus and dedication atmosphere",
+        "example_en": "productive college exam study session setup with open textbooks highlighted notes, organized color-coded flashcards, laptop with research tabs, focus and determination atmosphere",
+        "example_zh": "高效大学考试复习设置，打开教科书高亮笔记，组织彩色编码闪卡，笔记本电脑打开研究标签页，专注和决心氛围"
+      }
+    ]
+  },
+
+  "keyword-dictionary": {
+    "lens-terms": [
+      {"term": "macro lens", "zh": "微距镜头", "use": "极近距离拍摄微小物体"},
+      {"term": "wide angle", "zh": "广角", "use": "广阔视野，夸大透视"},
+      {"term": "telephoto", "zh": "长焦", "use": "压缩景深，远处特写"},
+      {"term": "fisheye", "zh": "鱼眼", "use": "极端广角畸变效果"},
+      {"term": "tilt-shift", "zh": "移轴", "use": "微缩模型效果"},
+      {"term": "prime 50mm", "zh": "50mm 定焦", "use": "标准视角，人像常用"},
+      {"term": "85mm portrait", "zh": "85mm 人像", "use": "经典人像焦距"},
+      {"term": "35mm documentary", "zh": "35mm 纪实", "use": "街头摄影标准"},
+      {"term": "f/1.2 aperture", "zh": "f/1.2 大光圈", "use": "极浅景深"},
+      {"term": "f/16 narrow", "zh": "f/16 小光圈", "use": "全景深清晰"},
+      {"term": "long exposure", "zh": "长曝光", "use": "动态模糊，水流拉丝"},
+      {"term": "fast shutter", "zh": "高速快门", "use": "凝固瞬间动作"},
+      {"term": "bokeh creamy", "zh": "奶油虚化", "use": "柔美背景散景"},
+      {"term": "circular bokeh", "zh": "圆形散景", "use": "规则光斑形状"},
+      {"term": "anamorphic", "zh": "变形宽银幕", "use": "电影感横向拉伸"},
+      {"term": "lens flare", "zh": "镜头眩光", "use": "阳光直射镜头效果"},
+      {"term": "chromatic aberration", "zh": "色差", "use": "边缘紫边效果"},
+      {"term": "vignette", "zh": "暗角", "use": "四角渐变暗化"},
+      {"term": "starburst", "zh": "星芒", "use": "点光源放射状"},
+      {"term": "motion blur", "zh": "运动模糊", "use": "主体移动痕迹"},
+      {"term": "panning", "zh": "摇拍", "use": "背景糊主体清"},
+      {"term": "HDR", "zh": "高动态范围", "use": "明暗细节全保留"},
+      {"term": "focus stacking", "zh": "焦点堆栈", "use": "全景深合成"},
+      {"term": "depth map", "zh": "深度图", "use": "AI 景深模拟"},
+      {"term": "rack focus", "zh": "变焦对焦", "use": "焦点转移效果"}
+    ],
+
+    "render-engines": [
+      {"engine": "Unreal Engine 5", "zh": "虚幻引擎 5", "strength": "实时光线追踪，Nanite 几何体"},
+      {"engine": "Octane Render", "zh": "Octane 渲染器", "strength": "GPU 加速，照片级真实"},
+      {"engine": "Redshift", "zh": "Redshift", "strength": "快速 GPU 渲染，影视级"},
+      {"engine": "V-Ray", "zh": "V-Ray", "strength": "全能型，建筑可视化主流"},
+      {"engine": "Cycles (Blender)", "zh": "Cycles (Blender)", "strength": "开源免费，物理准确"},
+      {"engine": "Arnold", "zh": "Arnold", "strength": "影视级，Maya 默认渲染器"},
+      {"engine": "Corona", "zh": "Corona", "strength": "易用性强， Interior 专攻"},
+      {"engine": "MantaFlow", "zh": "MantaFlow", "strength": "流体模拟优秀"},
+      {"engine": "Redshift GPU", "zh": "Redshift GPU", "strength": "即时渲染预览"},
+      {"engine": "Frost (3ds Max)", "zh": "Frost(3ds Max)", "strength": "人群模拟特效"},
+      {"engine": "Superpower", "zh": "Superpower", "strength": "程序化生成"},
+      {"engine": "PowerShell Render", "zh": "PowerShell 渲染器", "strength": "参数化设计"},
+      {"engine": "Hyperion", "zh": "Hyperion", "strength": "VRay 替代方案"},
+      {"engine": "Kyba", "zh": "Kyba", "strength": "程序化地形"},
+      {"engine": "PowerAnimator", "zh": "PowerAnimator", "strength": "动画集成"}
+    ],
+
+    "art-movements": [
+      {"movement": "Cubism", "zh": "立体主义", "artist_hint": "Picasso, Braque", "feature": "几何碎片化视角"},
+      {"movement": "Dadaism", "zh": "达达主义", "artist_hint": "Duchamp, Arp", "feature": "反艺术荒诞感"},
+      {"movement": "Expressionism", "zh": "表现主义", "artist_hint": "Munch, Kirchner", "feature": "强烈情感夸张变形"},
+      {"movement": "Fauvism", "zh": "野兽派", "artist_hint": "Matisse, Derain", "feature": "鲜艳原色大胆笔触"},
+      {"movement": "Minimalism", "zh": "极简主义", "artist_hint": "Judd, Reinhardt", "feature": "减少至基本元素"},
+      {"movement": "Op Art", "zh": "光学艺术", "artist_hint": "Vasarely, Riley", "feature": "视觉错觉动态感"},
+      {"movement": "Post-Impressionism", "zh": "后印象派", "artist_hint": "Van Gogh, Cézanne", "feature": "印象派之后的发展"},
+      {"movement": "Realism", "zh": "现实主义", "artist_hint": "Courbet, Millet", "feature": "客观真实描绘"},
+      {"movement": "Romanticism", "zh": "浪漫主义", "artist_hint": "Turner, Delacroix", "feature": "情感想象自然力量"},
+      {"movement": "Symbolism", "zh": "象征主义", "artist_hint": "Gauguin, Redon", "feature": "隐喻象征神秘"},
+      {"movement": "Tachism", "zh": "色域绘画", "artist_hint": "Hartenberg, Soulages", "feature": "自发涂抹色块"},
+      {"movement": "Arte Povera", "zh": "贫穷艺术", "artist_hint": "Kounellis, Penone", "feature": "日常材料艺术化"},
+      {"movement": "Land Art", "zh": "大地艺术", "artist_hint": "Smithson, Goldsworthy", "feature": "自然景观本身为媒介"},
+      {"movement": "Performance Art", "zh": "行为艺术", "artist_hint": "Beuys, Abramović", "feature": "身体行动即艺术"},
+      {"movement": "Video Art", "zh": "录像艺术", "artist_hint": "Nam June Paik", "feature": "电视屏幕为载体"}
+    ],
+
+    "material-descriptions": [
+      {"material": "crystalline", "zh": "结晶状", "visual": "透明棱角反光"},
+      {"material": "weathered", "zh": "风化的", "visual": "时间痕迹斑驳"},
+      {"material": "lustrous", "zh": "光泽的", "visual": "光滑表面反光"},
+      {"material": "textured", "zh": "有纹理的", "visual": "凹凸不平表面"},
+      {"material": "translucent", "zh": "半透明的", "visual": "透光不透像"},
+      {"material": "opaque", "zh": "不透明的", "visual": "完全不透光"},
+      {"material": "porous", "zh": "多孔的", "visual": "海绵状小孔"},
+      {"material": "polished", "zh": "抛光的", "visual": "镜面般光滑"},
+      {"material": "matte", "zh": "哑光的", "visual": "无反射柔光"},
+      {"material": "glossy", "zh": "光亮的", "visual": "强烈镜面反射"},
+      {"material": "fibrous", "zh": "纤维状", "visual": "丝缕纹理"},
+      {"material": "granular", "zh": "颗粒状", "visual": "细小颗粒堆积"},
+      {"material": "filamentous", "zh": "丝状的", "visual": "细长纤维纠缠"},
+      {"material": "lamellar", "zh": "片状的", "visual": "层叠薄片"},
+      {"material": "vesicular", "zh": "气泡状的", "visual": "气体膨胀孔洞"},
+      {"material": "fibrosity", "zh": "絮状的", "visual": "蓬松纤维团"},
+      {"material": "amorphous", "zh": "非晶态的", "visual": "无序不规则"},
+      {"material": "reticulated", "zh": "网状的", "visual": "网格交织结构"},
+      {"material": "lacquered", "zh": "上漆的", "visual": "保护层光亮"},
+      {"material": "patinated", "zh": "包浆的", "visual": "岁月沉淀色泽"},
+      {"material": "verdigris", "zh": "铜绿的", "visual": "氧化铜绿色"},
+      {"material": "oxidized", "zh": "氧化的", "visual": "金属变色层"},
+      {"material": "carbonized", "zh": "碳化的", "visual": "烧焦黑色"},
+      {"material": "calcified", "zh": "钙化的", "visual": "石灰质沉积"},
+      {"material": " Petrified", "zh": "石化的", "visual": "木质转石头"}
+    ],
+
+    "mood-words": [
+      {"emotion": "serene", "zh": "宁静的", "intensity": "low", "palette": "柔和冷色"},
+      {"emotion": "tranquil", "zh": "安详的", "intensity": "low", "palette": "蓝绿色调"},
+      {"emotion": "peaceful", "zh": "平和的", "intensity": "low", "palette": "中性色"},
+      {"emotion": "melancholic", "zh": "忧郁的", "intensity": "medium", "palette": "灰蓝紫色"},
+      {"emotion": "nostalgic", "zh": "怀旧的", "intensity": "medium", "palette": "棕褐褪色"},
+      {"emotion": "dreamy", "zh": "梦幻的", "intensity": "low-medium", "palette": "粉色淡紫"},
+      {"emotion": "ethereal", "zh": "空灵的", "intensity": "low", "palette": "银白淡金"},
+      {"emotion": "mystical", "zh": "神秘的", "intensity": "medium", "palette": "深蓝紫色"},
+      {"emotion": "magical", "zh": "魔幻的", "intensity": "medium-high", "palette": "彩虹光谱"},
+      {"emotion": "enchanting", "zh": "迷人的", "intensity": "medium", "palette": "饱和多彩"},
+      {"emotion": "whimsical", "zh": "异想天开的", "intensity": "low", "palette": "马卡龙色"},
+      {"emotion": "playful", "zh": "俏皮的", "intensity": "high", "palette": "原色鲜明"},
+      {"emotion": "joyful", "zh": "欢乐的", "intensity": "high", "palette": "暖黄橙色"},
+      {"emotion": "euphoric", "zh": "狂喜的", "intensity": "very high", "palette": "彩虹爆炸"},
+      {"emotion": "ecstatic", "zh": "欣喜若狂的", "intensity": "extreme", "palette": "金黄高光"},
+      {"emotion": "passionate", "zh": "激情的", "intensity": "high", "palette": "红橙炽热"},
+      {"emotion": "intense", "zh": "强烈的", "intensity": "high", "palette": "高对比"},
+      {"emotion": "dramatic", "zh": "戏剧性的", "intensity": "high", "palette": "明暗强烈"},
+      {"emotion": "moody", "zh": "情绪化的", "intensity": "medium", "palette": "阴暗压抑"},
+      {"emotion": "brooding", "zh": "沉思的", "intensity": "medium", "palette": "深灰暗绿"},
+      {"emotion": "haunting", "zh": "萦绕的", "intensity": "medium", "palette": "苍白冷色"},
+      {"emotion": "eerie", "zh": "怪异的", "intensity": "medium-high", "palette": "绿紫诡异"},
+      {"emotion": "sinister", "zh": "邪恶的", "intensity": "high", "palette": "黑红暗"},
+      {"emotion": "ominous", "zh": "不祥的", "intensity": "medium-high", "palette": "乌云灰"},
+      {"emotion": "foreboding", "zh": "预兆的", "intensity": "medium", "palette": "阴沉黄色"},
+      {"emotion": "menacing", "zh": "威胁的", "intensity": "high", "palette": "深红黑"},
+      {"emotion": " threatening", "zh": "恐吓的", "intensity": "very high", "palette": "血红黑暗"},
+      {"emotion": "epic", "zh": "史诗的", "intensity": "high", "palette": "宏大金黄色"},
+      {"emotion": "grandiose", "zh": "宏伟的", "intensity": "high", "palette": "金银辉煌"},
+      {"emotion": "majestic", "zh": "庄严的", "intensity": "high", "palette": "帝王紫金"}
+    ],
+
+    "time-settings": [
+      {"time": "early morning", "zh": "清晨", "light_quality": "柔和冷蓝过渡暖橙", "activities": "新鲜开始"},
+      {"time": "golden hour", "zh": "黄金时刻", "light_quality": "温暖金色柔和", "activities": "最佳摄影时段"},
+      {"time": "midday sun", "zh": "正午阳光", "light_quality": "强烈顶光硬阴影", "activities": "户外活动高峰"},
+      {"time": "harsh noon", "zh": "酷烈中午", "light_quality": "刺眼白光", "activities": "避暑避暑"},
+      {"time": "afternoon slump", "zh": "午后倦怠", "light_quality": "倾斜温和光线", "activities": "午后小憩"},
+      {"time": "late afternoon", "zh": "傍晚", "light_quality": "拉长阴影暖化", "activities": "放学下班"},
+      {"time": "sunset", "zh": "日落", "light_quality": "橙红渐变天际", "activities": "结束活动"},
+      {"time": "twilight", "zh": "暮光", "light_quality": "蓝紫色调", "activities": "华灯初上"},
+      {"time": "blue hour", "zh": "蓝色时刻", "light_quality": "均匀蓝调城市灯亮", "activities": "夜晚开始"},
+      {"time": "nightfall", "zh": "夜幕降临", "light_quality": "人工光源主导", "activities": "夜生活"},
+      {"time": "midnight", "zh": "午夜", "light_quality": "月光或路灯", "activities": "深夜活动"},
+      {"time": "witching hour", "zh": "巫术时刻", "light_quality": "阴影深邃", "activities": "神秘活动"},
+      {"time": "predawn", "zh": "破晓前", "light_quality": "最黑暗到第一缕光", "activities": "凌晨劳作"},
+      {"time": "first light", "zh": "第一缕光", "light_quality": "地平线微亮", "activities": "苏醒"},
+      {"time": "dawn", "zh": "黎明", "light_quality": "东边渐亮", "activities": "早起"},
+      {"time": "sunrise", "zh": "日出", "light_quality": "朝阳喷薄", "activities": "新的一天"},
+      {"time": "seasonal: spring", "zh": "春季", "light_quality": "明亮清新", "activities": "开花播种"},
+      {"time": "seasonal: summer", "zh": "夏季", "light_quality": "强烈明亮", "activities": "海滩暑假"},
+      {"time": "seasonal: autumn", "zh": "秋季", "light_quality": "金黄温暖", "activities": "收获落叶"},
+      {"time": "seasonal: winter", "zh": "冬季", "light_quality": "低角度冷淡", "activities": "滑雪取暖"}
+    ]
+  }
+}
